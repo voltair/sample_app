@@ -32,26 +32,4 @@ describe "Static pages" do
     it { should have_selector('h1',    text: 'Contact') }
     it { should have_selector('title', text: full_title('Contact')) }
   end
-<<<<<<< HEAD
 
-  describe "Contact page" do
-
-    it "should have the h1 'Contact'" do
-      visit '/static_pages/contact'
-      page.should have_selector('h1', :text => 'Contact')
-    end
-
-    it "should have the title 'Contact'" do
-      visit '/static_pages/about'
-      page.should have_selector('title',
-                    :text => "Ruby on Rails Tutorial Sample App | Contact Us")
-    end
-  end
-
-
-end
-=======
-end
-
-
->>>>>>> filling-in-layout
